@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="fibonacci.css" />
+    <script src="fibonacci.js"></script>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="main">
+        <input
+          type="number"
+          id="count"
+          placeholder="What fibonacci you want"
+          value="2"
+          onchange="fibonacci()"
+        />
+        <button onclick="fibonacci()">Calculate</button>
+        <div id="result">1</div>
+      </div>
+    </div>
+  </body>
+</html>
